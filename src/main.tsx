@@ -8,6 +8,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Accueil />,
+    errorElement: <h1>Une erreur s'est produite</h1>,
   },
 ]);
 createRoot(document.getElementById("root")!).render(
