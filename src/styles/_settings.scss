@@ -27,6 +27,12 @@ body {
   font-family: $font-1;
   // @include verticalCenter;
 }
+
+img {
+  width: 40vh;
+  
+  
+}
 li {
   list-style-type: none;
 }

@@ -7,4 +7,9 @@ export class RecipeService {
     const recipeURL: string = `${this.URL}`;
     return axios.get(recipeURL);
   };
+
+  public static SearchInput = (query: string) => {
+    const search: string = `${this.URL}=${query}`;
+    return axios.get(search);
+  };
 }
